@@ -12,11 +12,24 @@ def my_find(word, letter):
     """
 word = 'friendly'
 letter = 'i'
+word2 = 'insane'
+letter2 = 'o'
+word3 = 'tree'
+letter3 = 'k'
 
 #    str = "friendly"
 #    str.find('i')
 if letter in word:
-    print(f'yes')
+    print('yes')
+else:
+    print('no')
+
+if letter2 in word2:
+    print('yes')
+else:
+    print('no')
+if letter3 in word3:
+    print('yes')
 else:
     print('no')
       #returns {my_find('friendly','f')})
@@ -49,11 +62,8 @@ def sum_odd_to(n):
     n: non-negative integer
     Returns: the sum of all odd positive numbers from 1 to n
     """
-# n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# accum = 0
-# for i in n:
-#    accum = accum + i
-# return sum
-# for i in n:
-#     if i % 2 == 0)
-# print(n)
+n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+if n[i] % 2 != 0:
+        print(i)
+else:
+        print('sike. thats the wrong number.')
