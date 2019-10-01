@@ -16,7 +16,7 @@ letter = 'i'
 #    str = "friendly"
 #    str.find('i')
 if letter in word:
-     print(f'yes')
+    print(f'yes')
 else:
     print('no')
       #returns {my_find('friendly','f')})
@@ -37,6 +37,8 @@ accum = 0
 for i in n:
    accum = accum + i
 print(accum)
+print(accum - 1)
+print(accum * 2)
 
 def sum_odd_to(n):
     """
@@ -47,9 +49,11 @@ def sum_odd_to(n):
     n: non-negative integer
     Returns: the sum of all odd positive numbers from 1 to n
     """
-n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-accum = 0
-for i in n:
-   accum = accum + i
-   if n % 2 != 0:
-       print(n, end = "")
+# n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# accum = 0
+# for i in n:
+#    accum = accum + i
+# return sum
+# for i in n:
+#     if i % 2 == 0)
+# print(n)
